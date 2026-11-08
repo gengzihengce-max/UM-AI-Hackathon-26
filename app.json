@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Memory Garden",
+    "slug": "memory-garden-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.memorygarden.pitch"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#50B3D9"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.memorygarden.pitch"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sharing"
+    ],
+    "scheme": "memorygarden",
+    "description": "Open-source, mobile-first Memory Garden browser prototype with five cognitive games and a fictional one-year demo."
+  }
+}
